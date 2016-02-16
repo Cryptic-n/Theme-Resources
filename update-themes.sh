@@ -63,7 +63,7 @@ declare -a root=('Theme-Resources' 'abi' 'bionic' 'art' 'bootable' 'build' 'dalv
 declare -a frameworks=('api' 'cmds' 'data' 'docs' 'drm' 'graphics' 'include' 'keystore' 'libs' 'location' 'media' 'native' 'nfc-extras' 'obex' 'opengl' 'policy' 'rs' 'samples' 'sax' 'security-bridge' 'services' 'telecomm'
                        'telephony' 'test-runner' 'tests' 'tools' 'wifi')
 
-declare -a common=('common.mk' '.classpath' '.git' '.gitignore' '.idea' '.project' 'assets' 'build.gradle' 'src' 'tests' 'Android.mk' 'AndroidManifest.xml' 'CleanSpec.mk' 'lint.xml' 'MODULE_LICENSE_APACHE2' 'NOTICE' 'preloaded-classes'
+declare -a common=('common.mk' '.classpath' 'ForceProguard.mk' '.git' '.gitignore' '.idea' '.project' 'proguard-release.flags' 'assets' 'build' 'lib' 'build.gradle' 'src' 'tests' 'Android.mk' 'AndroidManifest.xml' 'CleanSpec.mk' 'lint.xml' 'MODULE_LICENSE_APACHE2' 'NOTICE' 'preloaded-classes'
                    'proguard.cfg' 'proguard.flags' 'proguard-test.flags' 'wrap_alpha.py' 'tools' 'tests' 'extensions_src' 'mkprojectfile' 'project.properties' 'hero.png' 'LICENSE' 'README.md' 'script' 'jni' 'res_p' 'sounds'
                    'src_pd' 'src_pd_gcam' 'tests_camera' 'version.mk' 'COPYING' 'ReadMe.md' 'WallpaperPicker' 'protos' 'util' 'fill_screens.py' 'print_db.py' 'update_gallery_files.py' 'update_system_wallpaper_cropper.py'
                    'cyanoden-dsp' 'emailcommon' 'transition' 'TestCommon' 'provider_src' 'gallerycommon' 'jni_jpegstream' 'apptests')
@@ -73,11 +73,11 @@ declare -a packages=('StatementService' 'BackupRestoreConfirmation' 'CaptivePort
 
 declare -a res=('Android.mk' 'AndroidManifest.xml' 'MODULE_LICENSE_APACHE2' 'NOTICE' 'lint.xml' 'assets' 'menu*' 'values-*' 'xml*' 'interpolator' 'raw*' 'anim' 'animator' 'transition' 'MakeJavaSymbols.sed')
 
-declare -a values=('all_search_engines.xml' 'appmsg_colors.xml' 'arrays.xml' 'attrs.xml' 'attrs_manifest.xml' 'bookmarks_icons.xml' 'bools.xml' 'config.xml' 'defaults.xml' 'donottranslate.xml' 'donottranslate_config.xml'
+declare -a values=('all_search_engines.xml' 'appmsg_colors.xml' 'arrays.xml' 'attrs.xml' 'attrs_manifest.xml' 'bookmarks_icons.xml' 'bools.xml' 'config.xml' 'custom_strings.xml' 'defaults.xml' 'donottranslate.xml' 'donottranslate_config.xml'
                    'aliases.xml' 'crop_colors.xml' 'dslv_attrs.xml' 'animation_constants.xml' 'donottranslate-cldr.xml' 'donottranslate-maps.xml' 'donottranslate-names.xml' 'donottranslate_material.xml'
-                   'donottranslate-search_engines.xml' 'fractions.xml' 'ids.xml' 'integers.xml' 'internal.xml' 'keys.xml' 'lland_config.xml' 'lland_strings.xml' 'plurals.xml' 'public.xml' 'purenexus_arrays.xml' 'purenexus_bools.xml' 'purenexus_config.xml'
-                   'purenexus_strings.xml' 'purenexus_constants' 'purenexus_symbols.xml' 'strings.xml' 'symbols.xml' 'nontranslatables.xml' 'accountprovider.xml' 'constants.xml' 'filtershow_ids.xml' 'filtershow_strings.xml' 'filtershow_values.xml'
-				   'filtershow_values_attrs.xml' 'vpi__attrs.xml' 'vpi__defaults.xml')
+                   'donottranslate-search_engines.xml' 'fractions.xml' 'ids.xml' 'integers.xml' 'internal.xml' 'keys.xml' 'lland_config.xml' 'lland_strings.xml' 'plurals.xml' 'public.xml' 'purenexus_arrays.xml' 'purenexus_attrs.xml' 'purenexus_bools.xml'
+                   'purenexus_constants.xml' 'purenexus_config.xml' 'purenexus_strings.xml' 'purenexus_constants' 'purenexus_symbols.xml' 'strings.xml' 'symbols.xml' 'nontranslatables.xml' 'accountprovider.xml' 'constants.xml' 'filtershow_ids.xml' 'filtershow_strings.xml'
+                   'filtershow_values.xml' 'filtershow_values_attrs.xml' 'versions.xml' 'vpi__attrs.xml' 'vpi__defaults.xml')
 
 declare -a core=('java' 'jni' 'tests')
 
